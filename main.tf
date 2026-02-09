@@ -20,5 +20,5 @@ module "ec2" {
   instance_type   = "t3.micro"
   key_name        = "saytruthweb"
   project_name    = var.project_name
-  ec2_count       = 3
+  ec2_count       = 1 // chnage to 2 if you want to create 2 EC2 instances
 }
